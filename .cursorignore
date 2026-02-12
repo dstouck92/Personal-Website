@@ -1,0 +1,7 @@
+# Safe mode: Exclude files that cause Cursor to freeze
+# These files contain inline base64 images (100KB+ per image) which
+# overload the editor's parser and indexer when you type.
+
+
+# Main index has extremely long lines (~197K chars) from embedded images
+# Remove this line after extracting images to external files
