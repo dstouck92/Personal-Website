@@ -521,6 +521,22 @@
             text-shadow: 0 0 20px var(--color-glow);
         }
 
+        .career-section-consulting h3 {
+            position: relative;
+            display: inline-block;
+        }
+
+        .career-section-consulting h3::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--color-accent), transparent);
+            box-shadow: 0 0 15px var(--color-glow);
+        }
+
         .career-card {
             background: rgba(0, 255, 245, 0.03);
             border: 1px solid rgba(0, 255, 245, 0.2);
