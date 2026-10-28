@@ -184,42 +184,6 @@
             }
         }
 
-        /* ===== BEGIN: 3-line hero headline (ARTIST FIRST / DATA DRIVEN / GLOBAL MINDSET) =====
-           Added Oct 2026. To revert to the original headline, delete this block and
-           swap the <h1> in #home back to the commented-out original. ===== */
-        /* Sized so the longest line ("GLOBAL MINDSET") stays on one line across viewports.
-           Only applies to the new headline; the original .hero-text h1 rule is untouched. */
-        .hero-text h1.hero-headline-3 {
-            font-size: clamp(2rem, 5.6vw - 0.6rem, 4.4rem);
-        }
-
-        .hero-text .hero-line {
-            display: block;
-        }
-
-        .hero-text .hero-line-1 {
-            color: var(--color-text);
-        }
-
-        .hero-text .hero-line-2 {
-            color: var(--color-accent);
-            text-shadow: 0 0 30px var(--color-glow), 0 0 60px var(--color-glow);
-            animation: glow 2s ease-in-out infinite alternate;
-        }
-
-        .hero-text .hero-line-3 {
-            color: var(--color-tertiary);
-            text-shadow: 0 0 30px rgba(0, 153, 255, 0.45);
-        }
-
-        @media (max-width: 768px) {
-            /* Single-column layout: column is full width, so scale with the viewport. */
-            .hero-text h1.hero-headline-3 {
-                font-size: clamp(1.8rem, 11vw - 0.6rem, 3rem);
-            }
-        }
-        /* ===== END: 3-line hero headline ===== */
-
         .hero-text p {
             font-size: 1.2rem;
             line-height: 1.8;
@@ -1439,14 +1403,7 @@
     <section id="home">
         <div class="hero-container">
             <div class="hero-text">
-                <!-- ORIGINAL HEADLINE (kept for easy revert — uncomment this and remove the 3-line <h1> below):
                 <h1>A&R Executive and <span class="highlight">Global Strategist</span></h1>
-                -->
-                <h1 class="hero-headline-3">
-                    <span class="hero-line hero-line-1">Artist First</span>
-                    <span class="hero-line hero-line-2">Data Driven</span>
-                    <span class="hero-line hero-line-3">Global Mindset</span>
-                </h1>
                 <!-- ORIGINAL PARAGRAPH (kept for easy revert — "Artist" instead of "Songwriter"):
                 <p>Executive, Artist, and Entrepreneur operating at the intersection of music, culture, and technology with a decade of experience at Warner Music Group, and an MBA from Kellogg Graduate School of Management.</p>
                 -->
